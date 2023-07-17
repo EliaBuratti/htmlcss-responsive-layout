@@ -26,12 +26,12 @@
     <body>
 
         <header class="site_header">
-            <nav class="container_mobile">
+            <nav class="container_mobile container-lg">
                 <div class="logo">
                     <img class="logo" src="./assets/img/logo.png" alt="Logo">
                 </div>
 
-                <div class="desktop_menu d-md-none">
+                <div class="desktop_menu d-md-none d-sm-none">
                     <a href="#">Planning</a>
                     <a href="#">Testimonials</a>
                     <a href="#">Features</a>
@@ -52,31 +52,38 @@
         </header>
 
         <main>
-            <div class="container_mobile">
-                <div class="row features">
-                    <div class="col-12 demo">
-                        <div class="card">
-                            <h3 class="main_color">
-                                Get a demo application
-                            </h3>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing
-                                elit. Veritatis obcaecati dolorem, maxime in
-                                architecto aliquid fugit aut provident eum quis!
-                                Corrupti doloribus ipsam eligendi voluptate officiis
-                                recusandae libero dolorum commodi.
-                            </p>
-                            <a class="store" href="#">
-                                <i class="fa-brands fa-apple fa-sm"></i>
-                                App store
-                            </a>
 
-                            <img src="./assets/img/phone.png" alt="phone">
+            <!-- features -->
+            <div class="container_mobile container-lg">
+                <div class="row features">
+                    <div class="col-12 demo col-md-8 col-lg-8 p-1 ">
+                        <div class="card d-flex wrap">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="main_color">
+                                    Get a demo application
+                                </h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit. Veritatis obcaecati dolorem, maxime in
+                                    architecto aliquid fugit aut provident eum quis!
+                                    Corrupti doloribus ipsam eligendi voluptate officiis
+                                    recusandae libero dolorum commodi.
+                                </p>
+                                <a class="store" href="#">
+                                    <i class="fa-brands fa-apple fa-sm"></i>
+                                    App store
+                                </a>
+
+                            </div>
+
+                            <div class="col-12 col-lg-6 phone">
+                                <img src="./assets/img/phone.png" alt="phone">
+                            </div>
 
                         </div>
                     </div>
 
-                    <div class="col-12 clean_code">
+                    <div class="col-12 clean_code col-md-4 col-lg-4 p-1 ">
                         <div class="card tx_center">
                             <a href="#">
                                 <i class="fa-solid fa-file-code fa-5x"></i>
@@ -94,7 +101,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 web_desin">
+                    <div class="col-12 web_desin col-md-4 col-lg-4 p-1 ">
                         <div class="card tx_center">
                             <a href="#">
                                 <i class="fa-solid fa-compass-drafting fa-5x"></i>
@@ -112,7 +119,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 development">
+                    <div class="col-12 development col-md-4 col-lg-4 p-1 ">
                         <div class="card tx_center">
                             <a href="#">
                                 <i class="fa-solid fa-laptop-code fa-5x"></i>
@@ -130,7 +137,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 branding">
+                    <div class="col-12 branding col-md-4 col-lg-4 p-1 ">
                         <div class="card tx_center">
                             <a href="#">
                                 <i class="fa-solid fa-bullhorn fa-5x"></i>
@@ -150,6 +157,8 @@
 
                 </div>
             </div>
+
+            
 
         </main>
 

@@ -23,6 +23,10 @@ a {
 p {
     margin: 2rem 0;
 }
+
+img {
+    max-width: 100%;
+}
 /* utilities */
 
 .container {
@@ -99,6 +103,10 @@ p {
     color: var(--main_color);
 }
 
+.tx_center {
+    text-align: center;
+}
+
 /* header section */
 
 .site_header nav {
@@ -122,6 +130,11 @@ p {
 
 /* main section */
 
+.features {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
 .features .card {
     background-color: var(--main_color_light);
 }
@@ -130,6 +143,20 @@ p {
     color: var(--light);
     padding: 0.5rem 3rem;
     border-radius: 1.5rem;
+}
+
+.demo .card {
+    padding-bottom: 0;
+}
+
+.demo img {
+    margin-bottom: -0.3rem;
+    margin-top: 2rem;
+}
+
+.tx_center i {
+    color: var(--main_color);
+    margin-bottom: 2rem;
 }
 
 

@@ -211,6 +211,7 @@ img {
     margin-bottom: 2rem;
 }
 
+
 /* end main section */
 
 /* responsive */
@@ -294,5 +295,20 @@ img {
     width: 80%;
     margin: auto;
     }
+    .planning-lg {
+        width: 60%;
+        margin: auto;
+    }
+
+    .second-planning-lg img {
+        max-width: 50%;
+    }
+
+    .second-planning-lg {
+        display: flex;
+        align-items: end;
+        margin-bottom: 2rem;
+    }
+
 }
 

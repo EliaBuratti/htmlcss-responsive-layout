@@ -11,6 +11,7 @@
     --main_color_light: #b5ddff;
     --light: white;
     --dark: black;
+    --purple: #9792e4;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -110,6 +111,14 @@ img {
     flex-wrap: wrap;
 }
 
+.light {
+    color: var(--light);
+}
+
+.dark {
+    color: var(--dark);
+}
+
 /* header section */
 
 .site_header nav {
@@ -171,6 +180,35 @@ img {
 .clean_code .card, .demo .card {
     margin: auto;
     height: 100%;
+}
+
+.planning {
+    background-color: var(--purple);
+    padding: 3rem 0;
+}
+
+.planning .col-12.light h3 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.second-planning {
+    background-color: var(--light);
+    border-radius: 2rem;
+}
+
+.second-planning i {
+    color: var(--dark);
+}
+
+.circle {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: var(--purple);
+    margin-bottom: 2rem;
 }
 
 /* end main section */

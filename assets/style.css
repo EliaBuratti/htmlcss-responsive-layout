@@ -335,6 +335,10 @@ img {
         margin: auto;
     }
 
+    body {
+        min-width: 370px;
+    }
+
 }
 
 
@@ -401,6 +405,10 @@ img {
     .container-small-md {
         width: 50%;
         margin: auto;
+    }
+
+    body {
+        min-width: 850px;
     }
 }
 
@@ -490,6 +498,10 @@ img {
     .container-small-lg {
         width: 30%;
         margin: auto;
+    }
+
+    body {
+        min-width: 1440px;
     }
 
 }

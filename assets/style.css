@@ -23,6 +23,7 @@ a {
 
 p {
     margin: 2rem 0;
+    line-height: 2rem;
 }
 
 img {
@@ -234,7 +235,7 @@ img {
     margin: 1rem 0;
 }
 
-.testimonial img {
+.testimonial img, .about_us img {
     max-width: 10rem;
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -252,10 +253,29 @@ img {
 }
 
 .count { 
-    font-size: 6rem;
+    font-size: 4rem;
     margin: 1rem 0;
 }
 
+.quote {
+    position: relative;
+}
+
+.quote img {
+    position: relative;
+}
+
+.quote i {
+    position: absolute;
+    top: 0;
+    left: 7.5rem;
+}
+
+.social {
+    background-color: var(--purple);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
 
 /* end main section */
 

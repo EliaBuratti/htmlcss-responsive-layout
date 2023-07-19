@@ -142,6 +142,10 @@ img {
     padding-left: 2rem;
 }
 
+.thin {
+    font-weight: 100;
+}
+
 /* header section */
 
 .site_header nav {
@@ -160,12 +164,6 @@ img {
     padding: 0.5rem;
 }
 
-.thin {
-    font-weight: 100;
-}
-
-
-
 /* end header section */
 
 /* main section */
@@ -178,6 +176,12 @@ img {
 .features .card {
     background-color: var(--main_color_light);
 }
+
+.features .tx_center i {
+    color: var(--main_color);
+    margin-bottom: 2rem;
+}
+
 .store {
     background-color: var(--main_color);
     color: var(--light);
@@ -195,15 +199,10 @@ img {
 }
 
 .phone {
-    padding-bottom: -1rem;
     display: flex;
     align-items: end;
 }
 
-.features .tx_center i {
-    color: var(--main_color);
-    margin-bottom: 2rem;
-}
 
 .clean_code .card, .demo .card {
     margin: auto;
@@ -316,6 +315,8 @@ img {
 
 
 /* end footer section */
+
+
 
 /* responsive */
 
@@ -465,10 +466,6 @@ img {
 		width: 100%;
 	}
 
-    .col-lg-6 img {
-        padding: 0;
-    }
-
     .container-lg {
     max-width: 1440px;
     width: 60%;
@@ -488,7 +485,7 @@ img {
         display: flex;
         align-items: end;
         margin-bottom: 2rem;
-        padding: 0 6rem;
+        padding: 2rem 6rem;
     }
 
     .testimonial-lg {
